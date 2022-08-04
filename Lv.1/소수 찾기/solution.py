@@ -24,3 +24,12 @@ def solution(n):
                 prime_count += 1
             
     return prime_count
+
+# 애라토스테네스의 체를 set subtraction 연산과, range의 step parameter를 활용해 간단히 계산
+# def solution(n):
+#     num=set(range(2,n+1))
+
+#     for i in range(2,n+1):
+#         if i in num:
+#             num-=set(range(2*i,n+1,i))
+#     return len(num)
