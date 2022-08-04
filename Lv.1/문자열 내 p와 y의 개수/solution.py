@@ -7,3 +7,8 @@ def solution(s):
         elif l == 'y': c -= 1
 
     return True if c == 0 else False
+
+# count 함수가 있구나
+# def numPY(s):
+#     # 함수를 완성하세요
+#     return s.lower().count('p') == s.lower().count('y')
