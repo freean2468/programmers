@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/86052
 #    to right   to down     to left     to up
 d = {0: (0, 1), 1: (1, 0), 2: (0, -1), 3: (-1, 0)}
 cycle = []
