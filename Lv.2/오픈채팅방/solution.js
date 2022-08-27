@@ -9,7 +9,7 @@ function solution(record) {
     }
   });
 
-  reccord.forEach((element) => {
+  record.forEach((element) => {
     split = element.split(" ");
 
     if (split[0] === "Enter") {
