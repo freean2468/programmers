@@ -3,11 +3,13 @@ global p
 
 def dfs(d, ori, oci, ri, ci):
     global p
+    print(p)
     rooms = list(filter(lambda x: (x[0] > -1 and x[1] > -1) and not (x[0] == ori and x[1] == oci) , [(ri, ci - 1), (ri, ci + 1), (ri + 1, ci), (ri - 1, ci)]))
     answer = []
     
     for r in rooms:
         try:
+            # print(r, r[0], r[1], p, p[r[0]], p[r[0]][r[1]])
             rv = p[r[0]][r[1]]
             if rv == 'P':
                 return 0
