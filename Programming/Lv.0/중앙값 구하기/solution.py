@@ -1,0 +1,5 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/120811
+def solution(array):
+    array.sort()
+    length = len(array)
+    return array[length // 2]
